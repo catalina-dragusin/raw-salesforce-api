@@ -343,5 +343,3 @@ The queries support pagination through the use of `LIMIT` and `OFFSET`. The `pag
 LIMIT COALESCE(:page_size, 25)
 OFFSET (COALESCE(:page, 1) - 1) * COALESCE(:page_size, 25);
 ```
-
-
